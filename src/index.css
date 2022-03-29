@@ -1,13 +1,154 @@
-body {
+html, body, p, ul{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 10px;
+  color: #031926;
+}
+
+h4{
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+h3{
+  margin-left: 15px;
+  color: white;
+}
+
+ul, a{
+  text-decoration: none;
+  color: #BCB8B2;
+  list-style: none;
+  margin-top: 70vh;
+}
+
+.Nav{
+  width: 20%;
+  height: 100vh;
+  background-color: #031926;
+  color: white;
+  float: left;
+  justify-content: center;
+  position: relative;
+}
+
+.Logo{
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  background-image: url("Img/Logo.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  left: 20%;
+}
+
+.NavItem{
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #BCB8B2;
+}
+
+.NavItem:hover{
+  background-color: #468189;
+  color: white;
+}
+
+.UIelement{
+  width: 45%;
+  margin-left: 40px;
+  height: 40vh;
+  background-color: #468189;
+  border-radius: 20px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.TimelineData{
+  width: 45%;
+  margin-left: 35px;
+  height: 40vh;
+  background-color: #77aca2;
+  border-radius: 20px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.CompOne, .CompTwo, .CompThree{
+  width: 80%;
+  height: auto;
+  float: left;
+}
+
+.AboutBlock, .ComparativeData{
+  width: 29%;
+  height: 40vh;
+  border-radius: 20px;
+  float: left;
+  margin-left: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.ComparativeData{
+  background-color: #9dbebb;
+}
+
+.AboutBlock{
+  background-color: #468189;
+}
+
+.HeadingBG{
+  width: 100%;
+  background-color: #212121;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* TimelineData */
+.CountrySelect{
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #031926;
+  color: white;
+  margin-left: 30px;
+  outline: none;
+}
+
+/* ComparativeData */
+.content-container{
+  margin-top: 40px;
+}
+
+.confirmedCases, .Deaths, .comparativeBlock{
+  width: 45%;
+  height: 35vh;
+  background-color: #77aca2;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+/* TimelineData */
+.TimelineBlock{
+  background-color: #77aca2;
+  width: 94%;
+  height: 60vh;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+p{
+  margin-top: 30px;
+  margin-left: 30px;
 }
