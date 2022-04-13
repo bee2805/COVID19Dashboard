@@ -232,7 +232,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Bronwyn Potgieter** - [email@address](mailto:200089@virtualwindow.co.za) 
+* **Bronwyn Potgieter** - [200089@virtualwindow.co.za](mailto:200089@virtualwindow.co.za) 
 * **Project Link** - https://github.com/bee2805/COVID19Dashboard
 
 <!-- ACKNOWLEDGEMENTS -->
