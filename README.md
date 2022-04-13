@@ -204,10 +204,10 @@ above and beyond.
 
 ### Mockups
 
-![image10](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup3.png)
+![image10](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup3.jpg)
 <br>
 
-![image11](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup4.png)
+![image11](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup4.jpg)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
