@@ -66,7 +66,7 @@
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-![image1](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup2_DV200.jpg)
+![image1](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup1.jpg)
 
 ### Project Description
 
@@ -122,7 +122,7 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/PotgieterBronwyn_200089_Mockup4_DV200)
+![image2](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup2.jpg)
 
 ### All The Latest COVID19 Data! 
 
