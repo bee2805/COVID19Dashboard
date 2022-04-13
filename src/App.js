@@ -1,9 +1,9 @@
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom"
 import Header from "./components/Header";
-import ComOne from "./components/ComOne";
-import ComTwo from "./components/ComTwo";
-import ComThree from "./components/ComThree";
+import Home from "./components/Home";
+import Timeline from "./components/Timeline";
+import Comparative from "./components/Comparative";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path="/" element = {<ComOne/>}/>
-        <Route path="/ComTwo" element = {<ComTwo/>}/>
-        <Route path="/ComThree" element = {<ComThree/>}/>
+        <Route path="/" element = {<Home/>}/>
+        <Route path="/Timeline" element = {<Timeline/>}/>
+        <Route path="/Comparative" element = {<Comparative/>}/>
       </Routes>
     </div>
 

@@ -1,4 +1,4 @@
-html, body, p, ul{
+html, body, ul{
   margin: 0;
   padding: 0;
 }
@@ -11,9 +11,22 @@ h1{
   color: #031926;
 }
 
+h2{
+  padding: 0;
+  margin-left: 0;
+  color: #468189;
+  margin-bottom: 5px;
+}
+
 h4{
   margin-top: 0;
   margin-left: 30px;
+  padding-bottom: 5px;
+}
+
+h5{
+  margin-top: 0;
+  margin-left: 30px
 }
 
 h3{
@@ -61,6 +74,12 @@ ul, a{
   color: white;
 }
 
+.Global{
+  background-color: #468189;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .UIelement{
   width: 45%;
   margin-left: 40px;
@@ -81,7 +100,7 @@ ul, a{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.CompOne, .CompTwo, .CompThree{
+.Home, .Comparative, .Timeline{
   width: 80%;
   height: auto;
   float: left;
@@ -93,17 +112,20 @@ ul, a{
   border-radius: 20px;
   float: left;
   margin-left: 35px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
   margin-top: 60px;
 }
 
-.ComparativeData{
-  background-color: #9dbebb;
+.homeBar{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.AboutBlock{
-  background-color: #468189;
+
+
+.ComparativeData{
+  background-color: #9dbebb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .HeadingBG{
@@ -129,13 +151,21 @@ ul, a{
 }
 
 .confirmedCases, .Deaths, .comparativeBlock{
-  width: 45%;
-  height: 35vh;
   background-color: #77aca2;
   border-radius: 20px;
   margin-left: 30px;
   margin-bottom: 30px;
   float: left;
+}
+
+.Deaths, .comparativeBlock{
+  width: 45%;
+  height: 35vh;
+}
+
+.confirmedCases{
+  width: 45%;
+  height: 74vh;
 }
 
 /* TimelineData */
