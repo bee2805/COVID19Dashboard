@@ -11,6 +11,10 @@ h1{
   color: #031926;
 }
 
+h1.counter{
+  color: #9dbebb;
+}
+
 h2{
   padding: 0;
   margin-left: 0;
@@ -31,7 +35,7 @@ h5{
 
 h3{
   margin-left: 15px;
-  color: white;
+  color: #468189;
 }
 
 ul, a{
@@ -81,23 +85,28 @@ ul, a{
 }
 
 .UIelement{
-  width: 45%;
+  width: 55%;
   margin-left: 40px;
   height: 40vh;
-  background-color: #468189;
   border-radius: 20px;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url('Img/covidwashHands.gif');
+  background-position: center;
+  background-size: cover;
 }
 
+/* https://media.giphy.com/media/WOkuHrhNv4LQVeSoik/giphy.gif */
+
 .TimelineData{
-  width: 45%;
+  width: 35%;
   margin-left: 35px;
-  height: 40vh;
-  background-color: #77aca2;
+  height: 45vh;
   border-radius: 20px;
   float: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url('Img/Logo.png');
+  background-position: center;
+  background-size: contain;
 }
 
 .Home, .Comparative, .Timeline{
@@ -172,7 +181,7 @@ ul, a{
 .TimelineBlock{
   background-color: #77aca2;
   width: 94%;
-  height: 60vh;
+  height: 70vh;
   margin-left: 30px;
   margin-top: 30px;
   border-radius: 20px;

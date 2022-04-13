@@ -8,7 +8,9 @@ const Home = () => {
     const [data, setData] = useState([]);
     const [cases, setCases] = useState([]);
     const [deaths, setDeaths] = useState([]);
-    const [comparingDataChart, setCompararingDataChart] = useState([]);
+    const [deathsChart, setDeathsChart] = useState([]);
+    const [casesChart, setCasesChart] = useState([]);
+    const [chartData, setChartData] = useState([]);
 
     useEffect(()=>{
         console.log("hello")
@@ -19,12 +21,20 @@ const Home = () => {
             setCases(response.data.Global.TotalConfirmed);
             setDeaths(response.data.Global.TotalDeaths);
 
+            for(let i = 0; i < data.length; i++){
+                cases.push({caseTotal:cases});
+                deaths.push({deathTotal:deaths});
+            }
+
+            setCasesChart(cases);
+            setDeathsChart(deaths);
+
             let barChartData = [
-                cases,
-                deaths
+                casesChart,
+                deathsChart
             ]
 
-            setCompararingDataChart(barChartData);
+            setChartData(barChartData);
 
         });
     },  []);
@@ -36,8 +46,8 @@ const Home = () => {
 
             {/* ComparativeData */}
             <div className="ComparativeData">
-                <h3>About Us</h3>
-                <h5>Our Coronavirus dashboard shows numbers and statistics of the disease spread globally. We aim to inform people around the world on the stats of their specific country</h5>
+                <h1>About Us</h1>
+                <h3>Our Coronavirus dashboard shows numbers and statistics of the disease spread globally. We aim to inform people around the world on the stats of their specific country</h3>
                  
             </div> {/* ComparativeData */}
 
@@ -47,10 +57,10 @@ const Home = () => {
                 <div className="chart">
                     <Bar 
                         data={{
-                            labels: ['Population', 'Cases'],
+                            labels: ['Cases', 'Deaths'],
                             datasets: [{
                                 label: '# COVID19 Cases',
-                                data: [12, 5],
+                                data: [499970577, 6180434],
                                 backgroundColor: [
                                     'rgba(255, 99, 132, 0.2)',
                                     'rgba(54, 162, 235, 0.2)',
@@ -74,46 +84,26 @@ const Home = () => {
             <div className="AboutBlock">
                 <h2>Total Global Cases</h2>
                 <div className='Global justify-content-center'>
-                    <h1>{cases}</h1>
+                    <h1 className='counter'>{cases}</h1>
                     <h4>Cases</h4>
                 </div>
                 <div className='Global'>
-                    <h1>{deaths}</h1>
+                    <h1 className='counter'>{deaths}</h1>
                     <h4>Deaths</h4>
                 </div>
                 <div className='Global'>
-                    <h1>{recoveries}</h1>
+                    <h1 className='counter'>{recoveries}</h1>
                     <h4>Recoveries</h4>
                 </div>
             </div>
             
             {/* TimelineData */}
             <div className="TimelineData">
-                <h3>Timeline Data</h3>
-                <div className="chart">
-                    <Line
-                        data={{
-                            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                            datasets: [{
-                                label: 'Covid Cases',
-                                data: [12, 19, 3, 5, 2, 3],
-                                fill: false,
-                                borderColor: 'rgb(75, 192, 192)',
-                                tension: 0.1
-                            },
-                        ],
-                        }} 
-                        height={200} 
-                        width={400} 
-                        options={{maintainAspectRatio: false,}} 
-                    />
-                </div>
+                <div className="chart"></div>
             </div> {/* TimelineData */}
             
             {/* UI Element */}
-            <div className="UIelement">
-                <h3>UI Element</h3>
-            </div>{/* UIElement */}
+            <div className="UIelement"></div>{/* UIElement */}
         </div>
     );
 }

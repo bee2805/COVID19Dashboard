@@ -51,7 +51,9 @@ const Timeline = () => {
                 confirmedCases.push({caseTotal: confirmedCases[i]});
             }
 
-            setDateLabels(dates);
+            const sortedDates = dates.sort();
+
+            setDateLabels(sortedDates);
             setTimeStamps(confirmedCases);
 
             let timelineCases =  [
@@ -95,7 +97,6 @@ const Timeline = () => {
                     />
                 </div>
             </div>
-            <p>There will be informatin here about the graph</p>
         </div>
     );
 }
