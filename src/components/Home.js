@@ -60,7 +60,7 @@ const Home = () => {
                             labels: ['Cases', 'Deaths'],
                             datasets: [{
                                 label: '# COVID19 Cases',
-                                data: [499970577, 6180434],
+                                data: chartData,
                                 backgroundColor: [
                                     'rgba(255, 99, 132, 0.2)',
                                     'rgba(54, 162, 235, 0.2)',
