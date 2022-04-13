@@ -150,17 +150,16 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 
-![image5][image5]
-<br>
-![image6][image6]
+![image6](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Ideation.png)
+
 
 ### Wireframes
 
-![image7][image7]
+![image7](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe1.png)
+![image8](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe2.png)
+![image9](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe3.png)
 
-### Custom UI
 
-![image8][image8]
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -179,43 +178,43 @@ The `Development Process` is the technical implementations and functionality don
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* What was good about this project, what did you learn.
-* What aspects did you enjoy.
+What I enjoyed most about this project was seeing how
+react worked and implementing my data dynamically
+into the charts. It was really awesome to see the data
+visualized, and I must say, Charts.js made me
+completely geek out!
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Bugs.
-* Bugs.
-
-
-#### Above And Beyond
-
-What aspects of this final build contribute to the `Above And Beyond` Component of your brief?
-<!-- what did you learn outside of the classroom and implement into your project-->
-* Name of Skill Explored.
-* Explain your understanding and execution of above skill.
+In the beginning I
+also struggled with classes and constructors and I also
+had issues with my chosen API and ended up having
+to restart the project.
 
 ### Future Implementation
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-* Future 1.
-* Future 2.
+I do believe I could have done a lot better in terms of
+styling. I wish to improve my skills with Charts.js and
+React. I believe next term I will be able to do my 10%
+above and beyond.
 
 <!-- MOCKUPS -->
 ## Final Outcome
 
 ### Mockups
 
-![image9][image9]
+![image10](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup3.png)
 <br>
-![image10][image10]
+
+![image11](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Mockup4.png)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
 
 To see a run through of the application, click below:
 
-[View Demonstration](path/to/video/demonstration)
+[View Demonstration](https://drive.google.com/file/d/1sOOyforx5G52_FBfRxcKV4lROozRGf8n/view?usp=sharing)
 
 
 See the [open issues](https://github.com/bee2805/COVID19Dashboard/issues) for a list of proposed features (and known issues).
@@ -223,7 +222,7 @@ See the [open issues](https://github.com/bee2805/COVID19Dashboard/issues) for a 
 <!-- AUTHORS -->
 ## Authors
 
-* **Your Name & Surname** - [MikeMaynard14](https://github.com/MikeMaynard14)
+* **Bronwyn Potgieter** - [bee2805](https://github.com/bee2805)
 
 <!-- LICENSE -->
 ## License
@@ -233,17 +232,19 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Your Name & Surname** - [email@address](mailto:email@address) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
+* **Bronwyn Potgieter** - [email@address](mailto:200089@virtualwindow.co.za) 
 * **Project Link** - https://github.com/bee2805/COVID19Dashboard
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
+* [Cov-19](https://cov-19-tf.netlify.app/about.html)
+* [mediaGroup](https://covid-api.mmediagroup.fr/v1)
+* [Covid-19-API](https://github.com/M-Media-Group/Covid-19-API)
+
+<br/>
+<br/>
+<br/>
 
 
 
