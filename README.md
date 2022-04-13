@@ -155,9 +155,9 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Wireframes
 
-![image7](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe1.png)
-![image8](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe2.png)
-![image9](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe3.png)
+![image7](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe1.jpg)
+![image8](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe2.jpg)
+![image9](https://raw.githubusercontent.com/bee2805/COVID19Dashboard/main/src/Img/Wireframe3.jpg)
 
 
 
