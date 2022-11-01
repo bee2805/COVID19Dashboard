@@ -65,8 +65,6 @@ const Timeline = () => {
 
     }
 
-    
-
     const lineGraph = {
         labels: dateLabels,
         datasets: [{
@@ -81,18 +79,22 @@ const Timeline = () => {
 
     return(
         <div className="Timeline">
-            <h1>Timeline Data</h1>
-            <h4>See how the COVID-19 infections have changed over time</h4>
+            <div className='pageIntro'>
+                <h1>Timeline Data</h1>
+                <p>See how the COVID-19 infections have changed over time</p>
+            </div>
+
             <select className="CountrySelect" ref={selectedCountry} onChange={getCountry}>
                 <option>Select A Country!</option>
                 { data.map(item => <option key={item.ID} >{item.Country}</option>)}
             </select>
+
             <div className="TimelineBlock">
                 <div className="chart">
                     <Line
                         data={lineGraph} 
-                        height={400} 
-                        width={600} 
+                        height={50} 
+                            width={100}
                         options={{maintainAspectRatio: false,}} 
                     />
                 </div>

@@ -131,7 +131,7 @@ const Comparative = () => {
 
             <div className='pageIntro'>
                 <h1>Comparative Data</h1>
-                <h4>Here you can see the comparison between COVID19 confirmed cases and deaths.</h4>
+                <p>Here you can see the comparison between COVID19 confirmed cases and deaths.</p>
             </div>
 
             {/* Country Dropdown */}

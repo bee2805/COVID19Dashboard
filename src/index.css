@@ -235,7 +235,6 @@ a{
 }
 
 /* ---------------------------------------- */
-
 /* Comparative Data */
 .pageIntro{
   float: left;
@@ -246,7 +245,7 @@ a{
   text-align: left;
 }
 
-.Comparative h4{
+.Comparative p{
   text-align: left;
 }
 
@@ -283,6 +282,7 @@ a{
   width: 95%;
   height: auto;
   padding: 2%;
+
   background-color: white;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
@@ -292,12 +292,22 @@ a{
   margin-bottom: 3%;
 }
 
+/* ---------------------------------------- */
 /* TimelineData */
 .TimelineBlock{
-  background-color: #77aca2;
-  width: 94%;
+  padding: 2%;
+  margin-top: 8%;
   height: 70vh;
-  margin-left: 30px;
-  margin-top: 30px;
+  width: 96%;
   border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.10);
+}
+
+.Timeline h1{
+  text-align: left;
+}
+
+.Timeline p{
+  text-align: left;
 }
