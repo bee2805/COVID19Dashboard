@@ -236,37 +236,60 @@ a{
 
 /* ---------------------------------------- */
 
-/* TimelineData */
+/* Comparative Data */
+.pageIntro{
+  float: left;
+  margin-bottom: 3%;
+}
+
+.Comparative h1{
+  text-align: left;
+}
+
+.Comparative h4{
+  text-align: left;
+}
+
 .CountrySelect{
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #031926;
   color: white;
-  margin-left: 30px;
+  margin-bottom: 3%;
   outline: none;
+  float: right;
 }
 
-/* ComparativeData */
-.content-container{
-  margin-top: 40px;
+.leftContainer{
+  width: 50%;
+  float: left;
 }
 
-.confirmedCases, .Deaths, .comparativeBlock{
-  background-color: #77aca2;
+.confirmedCases{
+  width: 90%;
+  padding: 1% 2%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
-  margin-left: 30px;
-  margin-bottom: 30px;
+}
+
+.rightContainer{
+  width: 50%;
   float: left;
 }
 
 .Deaths, .comparativeBlock{
-  width: 45%;
-  height: 35vh;
+  width: 95%;
+  height: auto;
+  padding: 2%;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
 }
 
-.confirmedCases{
-  width: 45%;
-  height: 74vh;
+.Deaths{
+  margin-bottom: 3%;
 }
 
 /* TimelineData */

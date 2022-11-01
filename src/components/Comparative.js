@@ -129,8 +129,10 @@ const Comparative = () => {
     return(
         <div className="Comparative">
 
-            <h1>Comparative Data</h1>
-            <h4>Here you can see the comparison between COVID19 confirmed cases and deaths.</h4>
+            <div className='pageIntro'>
+                <h1>Comparative Data</h1>
+                <h4>Here you can see the comparison between COVID19 confirmed cases and deaths.</h4>
+            </div>
 
             {/* Country Dropdown */}
             <select className="CountrySelect" onChange={getCountry} ref={selectedCountry}>
@@ -138,9 +140,7 @@ const Comparative = () => {
                 {data.map(item => <option key={item.ID} >{item.Country}</option>)}
             </select>{/* Country Dropdown */}
 
-            {/* Content Container */}
-            <div className="content-container">
-
+            <div className='leftContainer'>
                 {/* Cases */}
                 <div className="confirmedCases">
                     <h3>Confirmed Cases</h3>
@@ -148,7 +148,9 @@ const Comparative = () => {
                         <Bar data={cases}/>
                     </div>
                 </div> {/* Cases */}
-                
+            </div>
+
+            <div className='rightContainer'>
                 {/* Deaths */}
                 <div className="Deaths">
                     <h3>Deaths and Recoveries</h3>
@@ -166,13 +168,12 @@ const Comparative = () => {
                 <div className="comparativeBlock chart">
                     <PolarArea
                         data={comparativeChart} 
-                        height={50} 
-                        width={250} 
+                        height={200} 
+                        width={400}
                         options={{maintainAspectRatio: false,}} 
                     />
                 </div> {/* Comparing all the data */}
-
-            </div> {/* Content Container */}
+            </div>
 
         </div>
     );
