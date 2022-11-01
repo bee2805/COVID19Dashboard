@@ -238,6 +238,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
+* [illustrations](https://unblast.com/virus-protection-illustration-ai/)
 * [Cov-19](https://cov-19-tf.netlify.app/about.html)
 * [mediaGroup](https://covid-api.mmediagroup.fr/v1)
 * [Covid-19-API](https://github.com/M-Media-Group/Covid-19-API)

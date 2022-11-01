@@ -44,66 +44,95 @@ const Home = () => {
     return(
         <div className="Home">
 
-            {/* ComparativeData */}
-            <div className="ComparativeData">
-                <h1>About Us</h1>
-                <h3>Our Coronavirus dashboard shows numbers and statistics of the disease spread globally. We aim to inform people around the world on the stats of their specific country</h3>
-                 
-            </div> {/* ComparativeData */}
+            {/* left block */}
+            <div className='leftBlock'>
+                <div className="AboutBlock">
+                    <div className='welcomeImage'></div>
 
-            {/* ComparativeData */}
-            <div className="ComparativeData">
-                <h3 className="">ComparativeData</h3>
-                <div className="chart">
-                    <Bar 
-                        data={{
-                            labels: ['Cases', 'Deaths'],
-                            datasets: [{
-                                label: '# COVID19 Cases',
-                                data: chartData,
-                                backgroundColor: [
-                                    'rgba(255, 99, 132, 0.2)',
-                                    'rgba(54, 162, 235, 0.2)',
-                                ],
-                                borderColor: [
-                                    'rgba(255, 99, 132, 1)',
-                                    'rgba(54, 162, 235, 1)',
-                                ],
-                                    borderWidth: 1
-                                },
-                            ],
-                            }} 
-                            height={200} 
-                            width={400}  
-                            options={{maintainAspectRatio: false,}}
-                    />
+                    <div className='welcomeText'>
+                        <h1>Welcome to the Covid19 Dashboard</h1>
+                        <br/>
+                        <p>Our Coronavirus dashboard shows numbers and statistics of the disease spread globally. We aim to inform people around the world on the stats of their specific country</p>
+                    </div>
                 </div>
-            </div> {/* ComparativeData */}
 
-            {/* AboutData */}
-            <div className="AboutBlock">
-                <h2>Total Global Cases</h2>
-                <div className='Global justify-content-center'>
-                    <h1 className='counter'>{cases}</h1>
-                    <h4>Cases</h4>
-                </div>
-                <div className='Global'>
-                    <h1 className='counter'>{deaths}</h1>
-                    <h4>Deaths</h4>
-                </div>
-                <div className='Global'>
-                    <h1 className='counter'>{recoveries}</h1>
-                    <h4>Recoveries</h4>
+                {/* ComparativeData */}
+                <div className="ComparativeData">
+                    <h3 className="">Comparative Data</h3>
+                    <div className="chart">
+                        <Bar 
+                            data={{
+                                labels: ['Cases', 'Deaths'],
+                                datasets: [{
+                                    label: '# COVID19 Cases',
+                                    data: chartData,
+                                    backgroundColor: [
+                                        'rgba(255, 99, 132, 0.2)',
+                                        'rgba(54, 162, 235, 0.2)',
+                                    ],
+                                    borderColor: [
+                                        'rgba(255, 99, 132, 1)',
+                                        'rgba(54, 162, 235, 1)',
+                                    ],
+                                        borderWidth: 1
+                                    },
+                                ],
+                                }} 
+                                height={200} 
+                                width={100}  
+                                options={{maintainAspectRatio: false,}}
+                        />
+                    </div>
+                </div> {/* ComparativeData */}
+
+                <div className='historyData'></div>
+
+                <div className='globalStats'>
+                    <div className='cases'>
+                        <h1>{cases}</h1>
+                        <p>Cases</p>
+                    </div>
+
+                    <div className='deaths'>
+                        <h1>{deaths}</h1>
+                        <p>Deaths</p>
+                    </div>
+
+                    <div className='recoveries'>
+                        <h1>{recoveries}</h1>
+                        <p>Recoveries</p>
+                    </div>
                 </div>
             </div>
+
+            <div className='rightBlock'>
+                <div className='precautions'>
+                    <h3>Precaution Measures</h3>
+
+                    <div className='tip'>
+                        <div className='vaccination'></div>
+                        <p><strong>1. </strong>Get Vaccinated.</p>
+                    </div>
+
+                    <div className='tip'>
+                        <div className='washHands'></div>
+                        <p><strong>2. </strong>Keep your hands clean.</p>
+                    </div>
+                    
+                    <div className='tip'>
+                        <div className='distance'></div>
+                        <p><strong>3. </strong>Keep a disance from people.</p>
+                    </div>
+
+                    <div className='tip'>
+                        <div className='mask'></div>
+                        <p><strong>3. </strong>Keep a disance from people.</p>
+                    </div>
+                </div>
+
+                <div className='shield'></div>
+            </div>
             
-            {/* TimelineData */}
-            <div className="TimelineData">
-                <div className="chart"></div>
-            </div> {/* TimelineData */}
-            
-            {/* UI Element */}
-            <div className="UIelement"></div>{/* UIElement */}
         </div>
     );
 }
